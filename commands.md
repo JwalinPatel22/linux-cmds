@@ -13,3 +13,5 @@ sudo cat vi /etc/ssh/sshd_config | grep -i "PermitRootLogin"
 sudo +x script.sh
 sudo +r script.sh
 ```
+
+
