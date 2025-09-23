@@ -12,8 +12,8 @@ sudo cat vi /etc/ssh/sshd_config | grep -i "PermitRootLogin"
 #### Granting executable permission to a script
 
 ```bash
-sudo +x script.sh
-sudo +r script.sh
+sudo chmod +x script.sh
+sudo chmod +r script.sh
 ```
 
 #### Installing SELinux
