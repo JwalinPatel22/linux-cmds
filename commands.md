@@ -33,3 +33,22 @@ sestatus
 sudo vi /etc/selinux/config
 # set SELINUX=disabled
 ```
+
+#### Create a Cron Job
+```bash
+#installing cronie on centos
+sudo yum install cronie
+
+#check current status of the crond service
+sudo systemctl status crond
+
+#to start the crond service
+sudo systemctl start crond
+
+#check if any cronjobs are running
+sudo crontab -u root -l
+
+#to create a cronjob
+sudo crontab -e
+#paste the cronjob
+```
